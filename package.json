@@ -1,0 +1,25 @@
+{
+  "name": "@mfbtech/llm-api-types",
+  "version": "0.0.1",
+  "description": "Types used by the llm-api",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf ./lib && tsc --project tsconfig.json",
+    "lint": "eslint ./src/",
+    "fix-formatting": "prettier --write --config prettier.config.cjs ./src/",
+    "check-formatting": "prettier --check --config prettier.config.cjs ./src/"
+  },
+  "author": "MFB Technologies, Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.14.15",
+    "rimraf": "6.0.1",
+    "typescript": "5.5.4",
+    "eslint": "8.48.0",
+    "@rushstack/eslint-config": "3.3.4",
+    "@typescript-eslint/parser": "6.4.1",
+    "@typescript-eslint/eslint-plugin": "6.4.1",
+    "prettier": "2.8.8"
+  }
+}
