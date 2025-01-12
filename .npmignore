@@ -1,0 +1,6 @@
+src/
+.eslintrc.cjs
+.github
+.gitignore
+prettier.config.cjs
+tsconfig.json
