@@ -1,7 +1,7 @@
 {
   "name": "@mfbtech/llm-api-types",
-  "version": "0.0.1",
-  "description": "Types used by the llm-api",
+  "version": "1.0.0",
+  "description": "Basic types for an abstract llm api",
   "types": "lib/index.d.ts",
   "type": "module",
   "scripts": {
